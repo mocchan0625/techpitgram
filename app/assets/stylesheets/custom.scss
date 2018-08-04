@@ -1,0 +1,157 @@
+body {
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #262626;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+  height: 77px;
+}
+
+.core-sprite {
+  background-image: image-url("logo.png");
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  height: 35px;
+  width: 176px;
+  background-size: 114px;
+}
+
+.hide-text {
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+}
+
+.explore-icon {
+  background-image: image-url("logo2.png");
+  height: 24px;
+  width: 24px;
+  background-size: 22px!important;
+}
+
+.notification-icon {
+  background-image: image-url("logo3.png");
+  height: 24px;
+  width: 24px;
+  background-size: 22px!important;
+}
+
+.profile-icon {
+  background-image: image-url("logo4.png");
+  height: 24px;
+  width: 24px;
+  background-size: 22px!important;
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  padding: 10px 0;
+  margin: 0 0 10px;
+}
+
+.brand-name-img {
+  background-position: 0 0;
+  height: 56px;
+  width: 180px;
+  background-size: 160px;
+}
+
+
+.landing-left {
+  .dummy-phone {
+    background-image: image-url("top-image.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 454px 618px;
+    position: relative;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+  }
+
+  .screen-shot {
+    position: absolute;
+    top: 99px;
+    right: 63px;
+
+    .item {
+      position: absolute;
+    }
+  }
+}
+
+.landing-right {
+  .form-login {
+    width: 350px;
+
+    form {
+      padding: 0 40px;
+
+      .btn-primary {
+        width: 100%;
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      input {
+        border: 1px solid #efefef;
+      }
+
+      .form-check-label {
+        padding: 0;
+        font-size: 15px;
+        color: #262626;
+      }
+    }
+
+    .brand-name-img {
+      margin: 22px auto 8px;
+    }
+  }
+
+  .redirect-links {
+    width: 350px;
+  }
+}
+
+footer .nav-item {
+  color: #003569 !important;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.light-color {
+  color: #999;
+}
+
+.carousel-fade {
+  .carousel-item.active {
+    opacity: 1;
+    display: block;
+  }
+
+  .carousel-item {
+    transition: opacity 0.6s ease-in-out;
+    opacity: 0;
+    position: relative;
+    display: block;
+  }
+
+  .carousel-item:not(.active) {
+    position: absolute;
+    top: 0px;
+  }
+}
